@@ -1,9 +1,23 @@
 import React from 'react'
+import Social from './Social'
+import "./Home.css";
+import Data from './Data';
+import ScrolDown from './ScrolDown';
+
+
 
 function home() {
   return (
-    <div>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex voluptates consequuntur, odit totam aliquid quae nisi, voluptatibus velit repudiandae quis sequi temporibus ullam ab nobis. Odit beatae eos, neque unde magni ab dolor commodi mollitia sit quos laudantium alias minus, distinctio nisi quod dicta quibusdam voluptates molestiae nemo, perferendis provident quae cumque voluptatum? Nulla placeat explicabo veniam officia voluptas aut quia tenetur vel odio suscipit, saepe numquam sed ratione cum omnis. Nulla recusandae, libero eos vel suscipit accusantium cum, quo facilis odio cupiditate soluta porro iusto autem voluptatibus quae unde sapiente quod at praesentium repellendus qui culpa animi maiores quis!
+    <div className='home_section' id='home'>
+      <div className="home_container container grid">
+        <div className="home_content grid" >
+          <Social/>
+          <div className="home_img"></div>
+          <Data/>
+        </div>
+       <ScrolDown/>
+      </div>
+      
     </div>
   )
 }

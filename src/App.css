@@ -148,6 +148,9 @@ img{
   display: inline-flex;
   align-items: center;
 }
+.nav__menu {
+  padding: 0rem 0.25rem 4rem;
+}
 
 /*----Breakpoints----*/
 /*----Large devices----*/

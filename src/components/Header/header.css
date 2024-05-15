@@ -1,7 +1,8 @@
 .header{
+    height: 59px;
     width: 100%;
     position: fixed;
-    top:15px;
+    top:35px;
     bottom: 0%;
     z-index: var(--z-fixed);
     background-color: var(--container-color);
@@ -53,6 +54,7 @@
 }
 
 
+
 /*----Active link----*/
 .active-link,
 .nav__link:hover{
@@ -60,15 +62,30 @@
 }
 
 
-@media screen and (max-width:820px){
+@media screen and (max-width:607px){
     .header{
       top: initial;
       bottom: 0;
     }
+   .down_nav_btn{
+    font-size: 5rem; 
+   }
     .nav__logo {
+        padding: 0 9rem;
+        font-size: 3rem;    
         position: absolute;
         left: -51px;
         bottom: 30px;
+    }
+    .nav_close {
+        padding: 0 9rem;
+        padding: px;
+        position: absolute;
+        right: 1.5rem;
+        bottom: 1rem;
+        font-size: 1.5rem;
+        cursor: pointer;
+        color: var(--title-color);
     }
     .nav{
       height:var(--header-height) ;
@@ -102,13 +119,19 @@
       
     }
     .nav__list{
+        padding-bottom: 45px;
+
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap:2rem;
 
     }
+    .nav_item_text{
+        font-size: 2rem;
+
+    }
     .nav__icon{
-        font-size: 1.2rem;
+        font-size: 4rem;
 
     }
     .nav_close{
@@ -127,12 +150,16 @@ color: var(--title-color-dark );
     font-size: 1.1 rem;
     cursor: pointer;
 }
-    .nav__icon,
-    .nav_close,.nav__toggle{
-      display: block;
-    }
+.nav__icon, .nav_close, .nav__toggle {
+    font-size: 2rem;
+    display: block;
+}
+  }
+  .down_nav_btn{
+    font-size: 3rem;
   }
   .nav__menu{
+    background: aliceblue;  
     padding: 2rem 0.25rem 4rem;
   }
   
@@ -140,12 +167,14 @@ color: var(--title-color-dark );
 /*----Small devices----*/
 @media screen and (max-width:350px){
   .nav__menu{
+    background: aliceblue;
     padding: 2rem 0.25rem 4rem;
   }
   .nav__list{
     column-gap: 0;
   }
 }
+
 .menu{
     display: contents;
 }
