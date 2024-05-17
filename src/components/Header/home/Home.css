@@ -115,18 +115,21 @@
         /*----Breakpoints----*/
 /*----Large devices----*/
 @media screen and (max-width:850px){
+    .home__title{
+        width: rem;
+    }
     .home__description{
         width: initial;
-        margin-bottom: var(--mb-2-5);
+        
       }
     .home__content{
         
         
             }
-            .home__hand{
-                width: 26px;
-                height: 26px;
-              }
+            .home__hand {
+                width: 12rem;
+                height: 7rem;
+            }
               .home__subtitle{
               
                 margin-bottom: var(--mb-1);
@@ -156,7 +159,7 @@
             .home__img {
                 
                 position: relative;
-        left: -61rem;
+                margin-left: -52rem;
                 order: initial;
                 justify-self: initial;
                                 
@@ -167,7 +170,7 @@
             }
             .home__data {
                 margin-top: 2rem;
-                margin-left: 20rem;
+                margin-left: 10rem;
                 display: flow;
                 /* justify-content: center; */
                 width: 65rem;
@@ -179,7 +182,7 @@
                 right: 200px;
               }
             .home__social {
-                margin-left: 5rem;
+                margin-left:6rem;
                 display: grid;
                 grid-template-columns: max-content;
                 row-gap: 10rem;
@@ -188,21 +191,34 @@
             .home__scroll{
                 display: none;
               }
-              .home__title{
+              .home__title{width: 19rem;
+
                 font-size: 9rem;
               }
               .home__subtitle {
                 font-size: 5rem;
                 margin-bottom: var(--mb-1);
             }
+            .home__img {
+                height: 50rem;
+                width: 50rem;
+                 /* Adjust this value as needed */
+                margin-top: 0;
+              }
+              
+            
+
             .home__description {
                 font-size: 5rem;}
                 .button {
-                    font-size: 3rem;
-                    height: 5rem;
+                    font-size: 4rem;
+                    height: 10rem;
                     margin-left: 17rem;
-                    width: 17rem;
+                    width: 21rem;
                 }  
+            .about__description{
+                font-size: 3rem;
+            }
         }
         @media screen and (max-width:576px){}
 

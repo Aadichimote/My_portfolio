@@ -15,7 +15,7 @@ function About() {
         <div className="about__Data">
         <Info />
           <p className="about__description">hii AdityaAdityaAditya...className="about__description">hii AdityaAdityaAditya...className="about__description">hii AdityaAdityaAditya...</p>
-          <a download="" href={CV} className="button button--flex">
+          <a download="" href={CV} className="button_cv button--flex">
             Download CV
             <svg
               className="button__icon"
