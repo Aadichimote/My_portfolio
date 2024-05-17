@@ -116,7 +116,7 @@
 /*----Large devices----*/
 @media screen and (max-width:850px){
     .home__title{
-        width: rem;
+        width: 14rem;
     }
     .home__description{
         width: initial;
@@ -127,8 +127,8 @@
         
             }
             .home__hand {
-                width: 12rem;
-                height: 7rem;
+                width: 3rem;
+                height: 3rem;
             }
               .home__subtitle{
               
@@ -191,7 +191,8 @@
             .home__scroll{
                 display: none;
               }
-              .home__title{width: 19rem;
+              .home__title{  
+                      width: 75rem;
 
                 font-size: 9rem;
               }
@@ -206,7 +207,10 @@
                 margin-top: 0;
               }
               
-            
+              .home__hand {
+                width: 8rem;
+                height: 7rem;
+            }
 
             .home__description {
                 font-size: 5rem;}
@@ -214,8 +218,12 @@
                     font-size: 4rem;
                     height: 10rem;
                     margin-left: 17rem;
-                    width: 21rem;
+                    width: 24rem;
                 }  
+                .button__icon{
+                    height: 4rem;
+                    width: 6rem;
+                }
             .about__description{
                 font-size: 3rem;
             }

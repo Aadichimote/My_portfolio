@@ -14,7 +14,8 @@ function About() {
         <img src={AboutImg} alt="" className="about__img" />
         <div className="about__Data">
         <Info />
-          <p className="about__description">hii AdityaAdityaAditya...className="about__description">hii AdityaAdityaAditya...className="about__description">hii AdityaAdityaAditya...</p>
+          <p className="about__description">Hi, I'm Aditya. I completed my MCA degree and am a proficient frontend developer with experience in building responsive and dynamic web applications. I have successfully completed over 15 personal projects, showcasing my skills in HTML, CSS, JavaScript,React js,   etc.
+</p>
           <a download="" href={CV} className="button_cv button--flex">
             Download CV
             <svg

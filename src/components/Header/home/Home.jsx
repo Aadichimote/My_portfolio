@@ -16,7 +16,7 @@ function home() {
           <Data/>
           
         </div>
-          <ScrolDown/>
+          
        
       </div>
       
