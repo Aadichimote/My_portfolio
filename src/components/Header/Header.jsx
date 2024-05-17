@@ -7,7 +7,7 @@ function Header() {
     <>
       <header className="header">
         <nav className="nav_container">
-          <a  className="nav__logo">
+          <a href="/  "  className="nav__logo">
             Adi...
           </a>
           <div className={menuOpen ? "nav__menu" : "nav__close"}>
@@ -24,7 +24,7 @@ function Header() {
               </li>
               <li className="nav__item">
                 <a href="#skills" className="nav__link">
-                  <i className="uil uil-file-alt nav__icon"></i><p className="nav_item_text">Skills</p> 
+                  <i className="uil uil-file-alt nav__icon"></i><p className="nav_item_text">Skills</p>
                 </a>
               </li>
               <li className="nav__item">
