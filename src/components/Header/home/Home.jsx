@@ -8,17 +8,19 @@ import ScrolDown from './ScrolDown';
 
 function home() {
   return (
-    <div className='home_section' id='home'>
-      <div className="home_container container grid">
-        <div className="home_content grid" >
+    <section className='homesection' id='home'>
+      <div className="home__container container grid">
+        <div className="home__content grid" >
           <Social/>
-          <div className="home_img"></div>
+          <div className="home__img"></div>
           <Data/>
+          
         </div>
-       <ScrolDown/>
+          <ScrolDown/>
+       
       </div>
       
-    </div>
+    </section>
   )
 }
 

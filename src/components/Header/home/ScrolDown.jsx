@@ -39,8 +39,8 @@ function ScrolDown() {
             }}
           ></path>
         </svg>
-        <spanc className="home_scroll-name">Scroll down <i className="uil uil-arrow-down home_scroll-arrow"></i></spanc>
-         
+        <spanc className="home__scroll-name">Scroll down</spanc>
+        <i className="uil uil-arrow-down home_scroll-arrow"></i>
       </a>
     </div>
   );
