@@ -59,15 +59,15 @@ color: var(--title-color);
     width: 7rem;
 }
 .skills__title__out{
-    padding-bottom: 2rem;
+    
     display: flex;
     justify-content: center;
 
 }
-.skills__title__out:hover {
-    cursor: pointer;
-    text-decoration: underline;
-  }
+.skills__title__h3{
+    padding-bottom: 2rem;
+}
+
 /*----Large devices----*/
 @media screen and (max-width:850px){
     .skills__container{
@@ -127,6 +127,12 @@ color: var(--title-color);
     }
     .skill__title__tool{
         margin-left: 11rem;
+    }
+    .skills__title__h3 {
+        padding-bottom: 2rem;
+        width: 43rem;
+        margin-left: -17rem;
+        
     }
   }
   @media screen and (max-width:450px){

@@ -52,8 +52,8 @@
 .button_cv {
     font-size: 1rem;
     height: 3rem;
-    margin-left: 5rem;
-    width: 12rem;
+    margin-left: 3rem;
+    width: 10rem;
     color: white;
     background: black;
     border-radius: 17px;
@@ -73,7 +73,7 @@
     }
     .about{
         margin-left: 8rem;
-        width: 94rem;
+        width: 74rem;
     }
     .section__title {
         font-size:7rem;
@@ -114,8 +114,8 @@
     .button_cv{
         font-size: 4rem;
         height: 10rem;
-        margin-left: 17rem;
-        width: 35rem;
+        margin-left: 13rem;
+        width: 31rem;
         color: white;
         background: black;
         border-radius: 23px;
