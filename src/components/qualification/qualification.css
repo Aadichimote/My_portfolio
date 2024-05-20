@@ -5,14 +5,31 @@
     margin-left: 25rem;
     padding: 0rem 0rem 2rem;
 }
+
 .qualification__data{
+   
     padding: 2rem ;
+    width: 40rem;
 }
 .qualification__content{
     margin-left: 18rem;
-    width: 25rem;
+    width: 30rem;
     height: 25rem;
     border: 2px solid rgba(0, 0, 0, 0.5);
+}
+.qualification__title{
+    width: 27rem;
+}
+.qualification__tabs{
+display: flex;
+    justify-content: center;
+    padding-bottom: 1rem;
+}
+.round{
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    background-color: var(--text-color);
 }
 
 @media screen and (max-width:850px){
@@ -36,16 +53,36 @@
     .qualification__content{
         margin-left: 15rem;
         width: 58rem;
-        height: 85rem;
+        height: 42rem;
         border: 2px solid rgba(0, 0, 0, 0.5);
     }
     .qualificaiton__button{
-        margin-left: 3rem;
+        margin-left: 18rem;
     }
     .qualification__section{
       
             font-size: 4rem;
         }
+        .qualification__title {
+            font-size: 3rem;
+            width: 53rem;
+            font-weight: 700;
+        }
+        .qualification__subtitle,.qualification__rounder,.qualification__calender,.qualification__line{
+            width: 51rem;
+    display: block;
+    font-size: 2rem;
+        }
+        .qualification__tabs {
+            
+            margin-left: 33rem;
+            padding-bottom: 2rem;
+            font-size: 3rem;
+        }
+        .round {
+            display: inline-block;
+            width: 22px;
+            height: 22px;}
     }
 
 

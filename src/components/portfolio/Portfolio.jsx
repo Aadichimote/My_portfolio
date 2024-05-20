@@ -21,10 +21,10 @@ function Services() {
             <i className="uil uil-newspaper services__icon"></i>
             <h3 className="services__title">NewsVila : The news app</h3>
           </div>
-          <span className="services__button" onClick={() => toggleTab(1)}>
+          <button className="services__button view_more" onClick={() => toggleTab(1)}>
             View more
             <i className="uil uil-arrow-right services__button-icon"></i>
-          </span>
+          </button>
           <div className={toggleState === 1 ? "services__modal active-modal" : "services__modal"}>
             <div className="services__modal-project">
               <i className="uil uil-times services__modal-close" onClick={() => toggleTab(0)}></i>
@@ -57,10 +57,10 @@ updates.</p>
             <i className="uil uil-books services__icon"></i>
             <h3 className="services__title">BookStore: Book collection</h3>
           </div>
-          <span className="services__button" onClick={() => toggleTab(2)}>
+          <button className="services__button view_more" onClick={() => toggleTab(2)}>
             View more
             <i className="uil uil-arrow-right services__button-icon"></i>
-          </span>
+          </button>
           <div className={toggleState === 2 ? "services__modal active-modal" : "services__modal"}>
             <div className="services__modal-project">
               <i className="uil uil-times services__modal-close" onClick={() => toggleTab(0)}></i>
@@ -94,10 +94,10 @@ intuitive navigation for user-friendly browsing.</p>
             <i className="uil uil-file-question-alt services__icon"></i>
             <h3 className="services__title">QuizGrad : Quiz app</h3>
           </div>
-          <span className="services__button" onClick={() => toggleTab(3)}>
+          <button className="services__button view_more" onClick={() => toggleTab(3)}>
             View more
             <i className="uil uil-arrow-right services__button-icon"></i>
-          </span>
+          </button>
           <div className={toggleState === 3 ? "services__modal active-modal" : "services__modal"}>
             <div className="services__modal-project">
               <i className="uil uil-times services__modal-close" onClick={() => toggleTab(0)}></i>
