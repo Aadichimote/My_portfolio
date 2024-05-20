@@ -4,6 +4,8 @@ import Home from "./components/Header/home/Home";
 import About from "./components/About/About";
 import Skills from "./components/skills/Skills";
 import Services from "./components/Services/Services";
+import Portfolio from "./components/portfolio/Portfolio";
+
 function App() {
   return (
     <>
@@ -13,6 +15,8 @@ function App() {
       <About/>
       <Skills/>
       <Services/>
+      <Portfolio/>
+       
     </main>
     </>
   );
