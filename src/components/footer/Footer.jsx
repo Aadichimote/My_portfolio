@@ -15,11 +15,11 @@ function Footer() {
           </li>
         </ul>
         <div className="footer__social">
-          <a href="https://www.instagram.com/aditya__chimote/" className="home__social-icon" target="_blank">
+          <a href="https://www.instagram.com/aditya__chimote/" className="home__social-icon" >
             <i className="bx bxl-instagram"></i>
           </a>
 
-          <a href="https://github.com/Aadichimote" className="home__social-icon" target="_blank">
+          <a href="https://github.com/Aadichimote" className="home__social-icon" >
             <i className="bx bxl-github"></i>
           </a>
           <a href="https://www.linkedin.com/in/aditya-chimote-37a608280/" className='home__social-icon' target=''><i class="uil uil-linkedin"></i></a>
