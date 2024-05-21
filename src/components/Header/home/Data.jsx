@@ -65,7 +65,7 @@ function Data() {
           designs."
         </p>
 
-        <a  className="button_cv button--flex">
+        <a href=" https://api.whatsapp.com/send?phone=9022781718&text=Hello,more information!"   className="button_cv button--flex">
             Say hii
             <svg
                   class="button__icon"

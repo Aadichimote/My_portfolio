@@ -7,7 +7,7 @@
 }
 
 .qualification__data{
-   
+    line-height: 25px;
     padding: 2rem ;
     width: 40rem;
 }
@@ -31,7 +31,9 @@ display: flex;
     height: 9px;
     background-color: var(--text-color);
 }
-
+.qualificaiton__button{
+    text-decoration: underline;
+}
 @media screen and (max-width:850px){
     .qualification__table{
         margin-left: 18rem;
@@ -53,10 +55,11 @@ display: flex;
     .qualification__content{
         margin-left: 15rem;
         width: 58rem;
-        height: 42rem;
+        height: 50rem;
         border: 2px solid rgba(0, 0, 0, 0.5);
     }
     .qualificaiton__button{
+        font-size: 5rem;
         margin-left: 18rem;
     }
     .qualification__section{
@@ -72,6 +75,9 @@ display: flex;
             width: 51rem;
     display: block;
     font-size: 2rem;
+        }
+        .qualification__data{
+            line-height: 62px;
         }
         .qualification__tabs {
             

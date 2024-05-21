@@ -11,14 +11,13 @@ function Services() {
   return (
     <div className="services section" id="services">
       <h2 className="skills__title__out left">Services</h2>
-      <h5 className="skills__title__out skills__title_h5 left">What I offer</h5>
+      <h5 className="skills__title__out skills__title_h5 left">What I offer...</h5>
       <div className="services__container container grid">
         <div className="services__content">
           <div>
             <i className="uil uil-web-grid services__icon"></i>
             <h3 className="services__title">
-              Product <br />
-              Designer
+            Front End Developer
             </h3>
           </div>
 
@@ -29,20 +28,20 @@ function Services() {
           <div className={toggleState === 1 ? "services__modal active-modal" : "services__modal"}>
             <div className="services__modal-content">
               <i className="uil uil-times services__modal-close" onClick={() => toggleTab(0)}></i>
-              <h3 className="services__modal-title">Product Designer</h3>
-              <p className="services__modal-description">More than 3 years of experience in the field.</p>
+              <h3 className="services__modal-title">Front End Developer</h3>
+              <p className="services__modal-description">Expertise in modern front-end technologies and frameworks</p>
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">I develop the user interface.</p>
+                  <p className="services__modal-info">Responsive Web Design.</p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Web Page Development.</p>
+                  <p className="services__modal-info">Single Page Application Development.</p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">I create UX element interactions.</p>
+                  <p className="services__modal-info">Performance Optimization.</p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
@@ -57,8 +56,8 @@ function Services() {
           <div>
             <i className="uil uil-arrow services__icon"></i>
             <h3 className="services__title">
-              UI/UX <br />
-              Designer
+            React Developer <br />
+            
             </h3>
           </div>
           <span className="services__button" onClick={() => toggleTab(2)}>
@@ -68,20 +67,20 @@ function Services() {
           <div className={toggleState === 2 ? "services__modal active-modal" : "services__modal"}>
             <div className="services__modal-content">
               <i className="uil uil-times services__modal-close" onClick={() => toggleTab(0)}></i>
-              <h3 className="services__modal-title">UI/UX Designer</h3>
-              <p className="services__modal-description">More than 3 years of experience in the field.</p>
+              <h3 className="services__modal-title">React Developer</h3>
+              <p className="services__modal-description">Specializing in building modern web applications using React.</p>
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">I develop the user interface.</p>
+                  <p className="services__modal-info">Component-Based Architecture.</p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Web Page Development.</p>
+                  <p className="services__modal-info">State Management with Redux</p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">I create UX element interactions.</p>
+                  <p className="services__modal-info">Server-Side Rendering with Next.js</p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
@@ -96,8 +95,7 @@ function Services() {
           <div>
             <i className="uil uil-edit services__icon"></i>
             <h3 className="services__title">
-              Visual <br />
-              Designer
+            JavaScript Developer
             </h3>
           </div>
           <span className="services__button" onClick={() => toggleTab(3)}>
@@ -107,20 +105,20 @@ function Services() {
           <div className={toggleState === 3 ? "services__modal active-modal" : "services__modal"}>
             <div className="services__modal-content">
               <i className="uil uil-times services__modal-close" onClick={() => toggleTab(0)}></i>
-              <h3 className="services__modal-title">Visual Designer</h3>
-              <p className="services__modal-description">More than 3 years of experience in the field.</p>
+              <h3 className="services__modal-title">JavaScript Developer</h3>
+              <p className="services__modal-description">Proficient in JavaScript and its modern frameworks.</p>
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">I develop the user interface.</p>
+                  <p className="services__modal-info">Dynamic Web Applications.</p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Web Page Development.</p>
+                  <p className="services__modal-info">Integration with RESTful APIs.</p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">I create UX element interactions.</p>
+                  <p className="services__modal-info">Asynchronous Programming with Promises and Async/Await.</p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>

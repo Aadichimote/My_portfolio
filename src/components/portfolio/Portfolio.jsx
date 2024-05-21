@@ -14,7 +14,7 @@ function Services() {
   return (
     <div className="services section" id="portfolio">
       <h2 className="skills__title__out left">Projects</h2>
-      <h5 className="skills__title__out skills__title_h5 left">What I build</h5>
+      <h5 className="skills__title__out skills__title_h5 left">What I build..</h5>
       <div className="services__container container grid">
         <div className="services__content project__page ">
           <div>

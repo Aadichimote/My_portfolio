@@ -108,7 +108,7 @@
     }
     .about__subtitle {
         /* font-size: var(--small-font-size); */
-        font-weight: var(--font-medium);
+        
         font-size: 4rem;
     }
     .button_cv{
@@ -129,15 +129,14 @@
     }
     .about__description {
         margin: 9rem 0px;
-        font-weight: bold;
+        
         width: 77rem;
         font-size: 5rem;
     }
-  }
+}
   /*----Small devices----*/
   @media screen and (max-width:350px){
    
-  }
-  
+}
   
 

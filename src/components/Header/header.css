@@ -70,7 +70,7 @@
    }
     .nav__logo {
         padding: 0 9rem;
-        font-size: 1rem;    
+        font-size: 2.5rem;    
         position: absolute;
         left: -51px;
         bottom: 30px;
@@ -161,10 +161,12 @@ color: var(--title-color-dark );
   
 
 @media screen and (max-width:607px){
-    .header{
-      top: initial;
-      bottom: 0;
+    .header {
+        height: 10rem;
+        top: initial;
+        bottom: 0;
     }
+ 
    .down_nav_btn{
     font-size: 5rem; 
    }
@@ -254,7 +256,7 @@ color: var(--title-color-dark );
 }
   }
   .down_nav_btn{
-    font-size: 2rem;
+    font-size: 5rem;
   }
   .nav__menu{
     background: aliceblue;  
