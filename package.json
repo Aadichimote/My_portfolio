@@ -1,8 +1,9 @@
 {
+  "homepage": "https://aadichimote.github.io/My_portfolio",
   "name": "my_portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/Aadichimote/My_portfolio",
+  
   
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
