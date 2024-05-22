@@ -2,7 +2,7 @@ import React from 'react';
 import "./About.css";
 import Info from "./Info";
 import AboutImg from "../../assets/about.jpg";
-import CV from "../../assets/aditya_chimote.pdf";
+import CV from "../../assets/Aditya_Chimote.pdf";
 
 function About() {
   return (
