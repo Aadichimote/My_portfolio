@@ -46,6 +46,7 @@ border-radius: 0.5rem;
 @media screen and (max-width:768px){
     .footer__container {
         margin-left: 42rem;
+        margin-bottom: 6rem;
         
     }
     .footer__title {
@@ -70,7 +71,7 @@ border-radius: 0.5rem;
             padding-left: 5rem;
         }
         .footer__copy {
-            margin-bottom: 4rem;
+           
             margin-left: -23rem;
             width: 49rem;
             font-size: 5rem;
