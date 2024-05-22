@@ -2,7 +2,7 @@ import React from 'react'
 import Social from './Social'
 import "./Home.css";
 import Data from './Data';
-import ScrolDown from './ScrolDown';
+
 
 
 
