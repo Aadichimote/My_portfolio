@@ -22,7 +22,7 @@ function Footer() {
           <a href="https://github.com/Aadichimote" className="home__social-icon" >
             <i className="bx bxl-github"></i>
           </a>
-          <a href="https://www.linkedin.com/in/aditya-chimote-37a608280/" className='home__social-icon' target=''><i class="uil uil-linkedin"></i></a>
+          <a href="https://www.linkedin.com/in/aditya-chimote-37a608280/" className='home__social-icon' target=''><i className="uil uil-linkedin"></i></a>
         </div>
         <span className='footer__copy'>&#169;All rights reserved</span>
       </div>
