@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Aadichimote/My_portfolio/static/css/main.c2c9e9da.css",
-    "main.js": "/Aadichimote/My_portfolio/static/js/main.0abd23b4.js",
+    "main.css": "/Aadichimote/My_portfolio/static/css/main.257ccaf6.css",
+    "main.js": "/Aadichimote/My_portfolio/static/js/main.90808aaf.js",
     "static/js/453.acca0757.chunk.js": "/Aadichimote/My_portfolio/static/js/453.acca0757.chunk.js",
     "static/media/about.jpg": "/Aadichimote/My_portfolio/static/media/about.f06a9cc6bad02d9405f7.jpg",
     "static/media/profile.jpg": "/Aadichimote/My_portfolio/static/media/profile.c21c8bb144db1d94a363.jpg",
@@ -10,12 +10,12 @@
     "static/media/newsvilla.jpeg": "/Aadichimote/My_portfolio/static/media/newsvilla.e9740afb16111401906a.jpeg",
     "static/media/booklab.jpeg": "/Aadichimote/My_portfolio/static/media/booklab.ff4eff65f3a2616978e9.jpeg",
     "index.html": "/Aadichimote/My_portfolio/index.html",
-    "main.c2c9e9da.css.map": "/Aadichimote/My_portfolio/static/css/main.c2c9e9da.css.map",
-    "main.0abd23b4.js.map": "/Aadichimote/My_portfolio/static/js/main.0abd23b4.js.map",
+    "main.257ccaf6.css.map": "/Aadichimote/My_portfolio/static/css/main.257ccaf6.css.map",
+    "main.90808aaf.js.map": "/Aadichimote/My_portfolio/static/js/main.90808aaf.js.map",
     "453.acca0757.chunk.js.map": "/Aadichimote/My_portfolio/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c2c9e9da.css",
-    "static/js/main.0abd23b4.js"
+    "static/css/main.257ccaf6.css",
+    "static/js/main.90808aaf.js"
   ]
 }
