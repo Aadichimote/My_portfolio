@@ -7,7 +7,7 @@ function Header() {
     <>
       <header className="header">
         <nav className="nav_container">
-          <a href="/  "  className="nav__logo">
+          <a href="/"  className="nav__logo">
             Adi...
           </a>
           <div className={menuOpen ? "nav__menu" : "nav__close"}>
