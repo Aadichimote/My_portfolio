@@ -132,6 +132,9 @@
   background-color: #b3b3b3;
   border-radius: 0.5rem;
 }
+.view__code{
+font-size: 1rem;
+}
   @media screen and (max-width:992px){
    
     

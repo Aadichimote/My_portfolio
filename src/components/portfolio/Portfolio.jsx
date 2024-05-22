@@ -20,7 +20,7 @@ function Services() {
           <div>
             <i className="uil uil-newspaper services__icon"></i>
             <h3 className="services__title">NewsVila : The news app</h3>
-            <a href="https://github.com/Aadichimote/NewsVilla.com" className='home__social-icon' target=''><i className="uil uil-github"></i>View code</a>
+            <a href="https://github.com/Aadichimote/NewsVilla.com" className='view__code home__social-icon' target=''><i className="uil uil-github"></i>View code</a>
        
           </div>
           <button className="services__button view_more" onClick={() => toggleTab(1)}>
@@ -57,7 +57,8 @@ updates.</p>
         <div className="services__content project__page">
           <div>
             <i className="uil uil-books services__icon"></i>
-            <h3 className="services__title">BookStore: Book collection</h3>
+            <h3 className="services__title">BookStore: Book collection</h3><a href="https://github.com/Aadichimote/NewsVilla.com" className=' view__code home__social-icon' target=''><i className="uil uil-github"></i>View code</a>
+       
           </div>
           <button className="services__button view_more" onClick={() => toggleTab(2)}>
             View more
@@ -67,9 +68,7 @@ updates.</p>
             <div className="services__modal-project">
               <i className="uil uil-times services__modal-close" onClick={() => toggleTab(0)}></i>
               <h3 className="services__modal-title">BookStore: Book collection</h3>
-              
-            <a href="https://github.com/Aadichimote/BookLab.com" className='home__social-icon' target=''><i className="uil uil-github"></i>View code</a>
-              <img className="project__img" src={Projectimg2} alt="NewsVila Project" />
+                            <img className="project__img" src={Projectimg2} alt="NewsVila Project" />
               <p className="services__modal-description"> 
 </p>
               <ul className="services__modal-services grid">
@@ -96,9 +95,8 @@ intuitive navigation for user-friendly browsing.</p>
         <div className="services__content  project__page">
           <div>
             <i className="uil uil-file-question-alt services__icon"></i>
-            <h3 className="services__title">QuizGrad : Quiz app</h3>
-            
-            <a href="https://github.com/Aadichimote/QuizGrad" className='home__social-icon' target=''><i className="uil uil-github"></i>View code</a>
+            <h3 className="services__title">QuizGrad : Quiz app</h3><a href="https://github.com/Aadichimote/NewsVilla.com" className='view__code home__social-icon' target=''><i className="uil uil-github"></i>View code</a>
+       
           </div>
           <button className="services__button view_more" onClick={() => toggleTab(3)}>
             View more
