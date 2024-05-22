@@ -70,6 +70,7 @@ border-radius: 0.5rem;
             padding-left: 5rem;
         }
         .footer__copy {
+            margin-bottom: 4rem;
             margin-left: -23rem;
             width: 49rem;
             font-size: 5rem;
