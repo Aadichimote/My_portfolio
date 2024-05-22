@@ -66,7 +66,7 @@ font-size: var(--font-medium);
     color: var(--text-color);
     outline: none;
     border-radius: 0.75rem;
-    padding: 1.5rem;
+    padding: 3rem;
     z-index: 1;
 }
 .contact__form-tag{
@@ -147,6 +147,7 @@ z-index: 10;
         margin: 1rem;
     }
     .contact__form-input {
+        padding-top: 6rem;
         font-size: 2rem;
         width: 100%;
         height: 86%;

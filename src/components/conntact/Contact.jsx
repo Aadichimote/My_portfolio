@@ -78,7 +78,7 @@ function Contact() {
                   cols="30"
                   rows="10"
                   className="contact__form-input"
-                  
+                  placeholder="Enter  message"
                 ></textarea>
               </div>
 
