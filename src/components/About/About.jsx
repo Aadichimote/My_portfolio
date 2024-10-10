@@ -2,7 +2,7 @@ import React from 'react';
 import "./About.css";
 import Info from "./Info";
 import AboutImg from "../../assets/about.jpg";
-import CV from "../../assets/Aditya_Chimote.pdf";
+import CV from "../../assets/aditya_chimote.pdf";
 
 function About() {
   return (
@@ -14,7 +14,7 @@ function About() {
         <img src={AboutImg} alt="" className="about__img" />
         <div className="about__Data">
         <Info />
-          <p className="about__description">Hi, I'm Aditya. <br /> I completed my MCA degree and am a proficient frontend developer with experience in building responsive and dynamic web applications. I have successfully completed over 15+ personal projects, showcasing my skills in HTML, CSS, JavaScript,React js,   etc.
+          <p className="about__description">Hi, I'm Aditya. <br />I hold an MCA degree and am a proficient full-stack developer experienced in creating responsive and dynamic web applications. I have successfully completed over 15 personal projects, demonstrating my expertise in HTML, CSS, JavaScript, React.js, and backend technologies.
 </p>
           <a download="" href={CV} className="button_cv button--flex">
             Download CV

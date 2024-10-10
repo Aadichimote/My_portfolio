@@ -59,10 +59,7 @@ function Data() {
         </h1>
         <h3 className="home__subtitle">---Front-End Designer---</h3>
         <p className="home__description">
-            Hii,<br />   I am a versatile frontend developer and designer,
-           skilled in crafting engaging user
-           experiences through intuitive  interfaces and interactive
-          designs."
+            Hii,<br />  I am a versatile full-stack developer, skilled in creating seamless user experiences and robust backend systems. With expertise in both frontend and backend technologies,"
         </p>
 
         <a href=" https://api.whatsapp.com/send?phone=9022781718&text=Hello,more information!"   className="button_cv button--flex">

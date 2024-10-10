@@ -1,3 +1,4 @@
+import React from 'react'; // Add this line
 import "./App.css";
 import Header from './components/Header/Header';
 import Home from "./components/Header/home/Home";
@@ -12,19 +13,17 @@ import Footer from "./components/footer/Footer";
 function App() {
   return (
     <>
-    <Header/>
-    <main className='main'>
-      <Home/>
-      <About/>
-      <Skills/>
-      <Qualification/> 
-      <Services/>
-
-      <Portfolio/>
-      <Contact/>
-      <Footer/>
-      
-    </main>
+      <Header/>
+      <main className='main'>
+        <Home/>
+        <About/>
+        <Skills/>
+        <Qualification/> 
+        <Services/>
+        <Portfolio/>
+        <Contact/>
+        <Footer/>
+      </main>
     </>
   );
 }

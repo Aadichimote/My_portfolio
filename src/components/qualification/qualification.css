@@ -5,7 +5,9 @@
     margin-left: 25rem;
     padding: 0rem 0rem 2rem;
 }
-
+.qualification__subtitle,.qualification__rounder,.qualification__calender,.qualification__line{
+    padding-left: 3rem;
+}
 .qualification__data{
     line-height: 25px;
     padding: 2rem ;
@@ -18,6 +20,7 @@
     border: 2px solid rgba(0, 0, 0, 0.5);
 }
 .qualification__title{
+    padding-bottom: 1rem;
     width: 27rem;
 }
 .qualification__tabs{
@@ -52,10 +55,10 @@ display: flex;
     .qualification__heading{
         margin-left: 45rem;
     }
-    .qualification__content{
-        margin-left: 15rem;
-        width: 58rem;
-        height: 50rem;
+    .qualification__content {
+        margin-left: 10rem;
+        width: 70rem;
+        height: 75rem;
         border: 2px solid rgba(0, 0, 0, 0.5);
     }
     .qualificaiton__button{
@@ -67,14 +70,16 @@ display: flex;
             font-size: 4rem;
         }
         .qualification__title {
-            font-size: 3rem;
+            font-size: 4rem;
             width: 53rem;
             font-weight: 700;
+            padding-bottom: 4rem;
         }
         .qualification__subtitle,.qualification__rounder,.qualification__calender,.qualification__line{
-            width: 51rem;
+            padding: 0rem 7rem;
+            width: 70rem;
     display: block;
-    font-size: 2rem;
+    font-size: 3rem;
         }
         .qualification__data{
             line-height: 62px;

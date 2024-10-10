@@ -1,3 +1,4 @@
+
 .skills__container{
     grid-template-columns: repeat(2, 350px);
     column-gap: 3rem;
@@ -100,7 +101,10 @@ color: var(--title-color);
   }
   /*----Medium Devices----*/
   @media screen and (max-width:770px){
-    .skills {
+    .skills__content{
+    padding: 0 13rem;
+        } 
+       .skills {
         font-size: 6rem;
         margin-left: 42rem;
     }

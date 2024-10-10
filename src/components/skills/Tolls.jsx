@@ -10,12 +10,12 @@ function Tolls() {
         <div className="skills__group">
             
             <div>
-                <h6 className="skilld__name"><i className="bx bx-badge-check"></i>Git</h6>
+                <h6 className="skilld__name"><i className="bx bx-badge-check"></i>Git, Github</h6>
                 <span className="skills__level">Advance</span>
             </div>
            
             <div>
-                <h6 className="skilld__name"><i className="bx bx-badge-check"></i>Github</h6>
+                <h6 className="skilld__name"><i className="bx bx-badge-check"></i>Postman</h6>
                 <span className="skills__level">Addvance</span>
             </div>
            
